@@ -1,0 +1,14 @@
+# Local environment and secrets (the app reads no .env today; kept ignored in case one is added)
+.env
+.env.*
+!.env.example
+.venv/
+
+# py2app output
+build/
+dist/
+
+# Python / macOS clutter
+__pycache__/
+*.pyc
+.DS_Store
